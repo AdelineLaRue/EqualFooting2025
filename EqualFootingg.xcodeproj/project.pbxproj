@@ -11,6 +11,13 @@
 		BD5096312C5C18AF00B530D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096302C5C18AF00B530D8 /* ContentView.swift */; };
 		BD5096332C5C18B100B530D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5096322C5C18B100B530D8 /* Assets.xcassets */; };
 		BD5096362C5C18B100B530D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5096352C5C18B100B530D8 /* Preview Assets.xcassets */; };
+		BD50963D2C5C18FD00B530D8 /* survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50963C2C5C18FD00B530D8 /* survey.swift */; };
+		BD50963F2C5C193300B530D8 /* sat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD50963E2C5C193300B530D8 /* sat.swift */; };
+		BD5096412C5C196300B530D8 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096402C5C196300B530D8 /* list.swift */; };
+		BD5096432C5C199400B530D8 /* infopage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096422C5C199400B530D8 /* infopage.swift */; };
+		BD5096452C5C19D600B530D8 /* commonapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096442C5C19D600B530D8 /* commonapp.swift */; };
+		BD5096472C5C1A0300B530D8 /* college.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096462C5C1A0300B530D8 /* college.swift */; };
+		BD5096492C5C1A6700B530D8 /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5096482C5C1A6700B530D8 /* search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		BD5096302C5C18AF00B530D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD5096322C5C18B100B530D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5096352C5C18B100B530D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD50963C2C5C18FD00B530D8 /* survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = survey.swift; sourceTree = "<group>"; };
+		BD50963E2C5C193300B530D8 /* sat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sat.swift; sourceTree = "<group>"; };
+		BD5096402C5C196300B530D8 /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		BD5096422C5C199400B530D8 /* infopage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infopage.swift; sourceTree = "<group>"; };
+		BD5096442C5C19D600B530D8 /* commonapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonapp.swift; sourceTree = "<group>"; };
+		BD5096462C5C1A0300B530D8 /* college.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = college.swift; sourceTree = "<group>"; };
+		BD5096482C5C1A6700B530D8 /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				BD50962E2C5C18AF00B530D8 /* EqualFootinggApp.swift */,
 				BD5096302C5C18AF00B530D8 /* ContentView.swift */,
+				BD50963C2C5C18FD00B530D8 /* survey.swift */,
+				BD5096422C5C199400B530D8 /* infopage.swift */,
+				BD5096442C5C19D600B530D8 /* commonapp.swift */,
+				BD5096462C5C1A0300B530D8 /* college.swift */,
+				BD5096482C5C1A6700B530D8 /* search.swift */,
+				BD50963E2C5C193300B530D8 /* sat.swift */,
+				BD5096402C5C196300B530D8 /* list.swift */,
 				BD5096322C5C18B100B530D8 /* Assets.xcassets */,
 				BD5096342C5C18B100B530D8 /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5096432C5C199400B530D8 /* infopage.swift in Sources */,
+				BD5096452C5C19D600B530D8 /* commonapp.swift in Sources */,
+				BD5096412C5C196300B530D8 /* list.swift in Sources */,
+				BD5096472C5C1A0300B530D8 /* college.swift in Sources */,
+				BD50963F2C5C193300B530D8 /* sat.swift in Sources */,
 				BD5096312C5C18AF00B530D8 /* ContentView.swift in Sources */,
+				BD5096492C5C1A6700B530D8 /* search.swift in Sources */,
+				BD50963D2C5C18FD00B530D8 /* survey.swift in Sources */,
 				BD50962F2C5C18AF00B530D8 /* EqualFootinggApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
